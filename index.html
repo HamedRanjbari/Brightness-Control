@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <title>Brightness Control | Hamed Ranjbari</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- container -->
+    <div class="container">
+      <div class="image"></div>
+      <button class="changeBtn">Click to change brightness</button>
+      <!-- control -->
+      <div class="control">
+        <i class="low-bright bi bi-brightness-high-fill"></i>
+        <input class="range" type="range" min="10" max="100" value="100" />
+        <i class="high-bright bi bi-brightness-high"></i>
+        <div>
+          <p class="text">100%</p>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
